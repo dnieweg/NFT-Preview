@@ -4,6 +4,7 @@
 
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     color:white;
@@ -29,7 +30,7 @@ body{
     top: 50%;
     padding: 25px;
     padding-bottom: 100px;
-    max-width: 300px;
+    max-width: 350px;
     border-radius: 15px;
     color: hsl(215, 51%, 70%) ;
     margin: auto;
@@ -55,13 +56,16 @@ h3{
 
 #left-card{
     color:cyan;
-    margin:0;
     display: flex;
-    justify-content: left;
+    float:left;
+    width: 65%;
+    font-size: 15px;
+
 }
 
 #eth_img{
     padding-right: 5px;
+
 }
 
 #right-card{
@@ -70,5 +74,20 @@ h3{
 
     display: flex;
     color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    overflow: hidden;
+
+}
+
+#clock_img{
+    padding-right: 5px;
+
+}
+
+#line{
+    border-top-style: solid;
+    border-top-color: hsl(215, 51%, 70%);
+    border-top-width: 0.5px;
+    margin-top:20px;
 
 }
