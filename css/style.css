@@ -1,1 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-family: Outfit,
+    sans-serif;
+
+
+}
+p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+
+}
+body{
+
+    background-color:  hsl(216, 55%, 11%);
+}
+
+#CardContainer{
+    background-color: hsl(216, 50%, 16%);
+
+    left: 50%;
+    top: 50%;
+    padding: 25px;
+    padding-bottom: 100px;
+    max-width: 300px;
+    border-radius: 15px;
+    color: hsl(215, 51%, 70%) ;
+    margin: auto;
+    margin-top: 15%;
+
+    box-shadow:
+    1px 15px 10px 20px hsl(217, 55%, 9%),
+    5px 30px 5px 50px hsl(216, 57%, 10%);
+
+}
+
+#equilibrium{
+
+    width: 300px;
+
+}
+
+h3{
+    text-align: left;
+    padding-top:24px;
+    padding-bottom: 24px;
+}
+
+#left-card{
+    color:cyan;
+    margin:0;
+    display: flex;
+    justify-content: left;
+}
+
+#eth_img{
+    padding-right: 5px;
+}
+
+#right-card{
+
+
+
+    display: flex;
+    color: hsl(215, 51%, 70%);
+
+}
