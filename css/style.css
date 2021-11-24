@@ -29,7 +29,7 @@ body{
     left: 50%;
     top: 50%;
     padding: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     max-width: 350px;
     border-radius: 15px;
     color: hsl(215, 51%, 70%) ;
@@ -89,5 +89,29 @@ h3{
     border-top-color: hsl(215, 51%, 70%);
     border-top-width: 0.5px;
     margin-top:20px;
+    padding-bottom: 20px;
 
+
+}
+
+#avatar_img{
+    width: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+#line-left{
+    display: flex;
+    float:left;
+
+    font-size: 12px;
+
+}
+
+#line-right{
+    display: flex;
+    overflow: hidden;
+    font-size: 12px;
+    margin-top:15px;
+    margin-left: 15%;
 }
