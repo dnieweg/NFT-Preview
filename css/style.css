@@ -83,3 +83,11 @@ h3{
     padding-right: 5px;
 
 }
+
+#line{
+    border-top-style: solid;
+    border-top-color: hsl(215, 51%, 70%);
+    border-top-width: 0.5px;
+    margin-top:20px;
+
+}
