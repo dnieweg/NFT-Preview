@@ -56,20 +56,30 @@ h3{
 
 #left-card{
     color:cyan;
-
     display: flex;
-    justify-content: left;
+    float:left;
+    width: 65%;
+    font-size: 15px;
+
 }
 
 #eth_img{
     padding-right: 5px;
+
 }
 
 #right-card{
 
 
-    justify-content: right;
+
     display: flex;
     color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    overflow: hidden;
+
+}
+
+#clock_img{
+    padding-right: 5px;
 
 }
